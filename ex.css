@@ -1,0 +1,275 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color:chocolate;
+    display: flex;
+    justify-content: center;
+}
+.header-container{
+    width: 80%;
+    height: 70px;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 20%;
+    height: 70px;
+    /*background-color: yellow;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.nav{
+    width: 25%;
+    height: 70px;
+    /*background-color: blue;*/
+    display: flex;
+    align-items: center;
+   
+
+}
+.nav-links{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    color: black;
+    justify-content: space-between;
+    font-family: Segoe UI;
+
+}
+.nav-item{
+    cursor: pointer;
+
+}
+
+.banner{
+    width: 100%;
+    height: 450px;
+    /*background-color: gray;*/
+    overflow: hidden;
+    display: flex;
+}
+
+.banner-details{
+    width: 70%;
+    height: 400px;
+    /*background-color: gray;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-texts{
+    width: 80%;
+    height: 300px;
+    /*background-color: white;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+    color: #0e3160;
+
+}
+
+.banner-title{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+
+.highlight{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 15px solid #0e3160;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0e3160;
+}
+
+.branding{
+    width: 100%;
+    padding: 50px 10%;
+    display: flex;
+    column-gap: 5%;
+}
+
+.branding-1
+{
+    width: 30%;
+    height: 600px;
+    background-color: #98c6d2;
+    background-image: url('image/vijay.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+
+.branding-2
+{
+    width: 30%;
+    height: 600px;
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-transform: uppercase;
+    
+
+}
+
+.branding-3 {
+    width: 30%;
+    height: 600px;
+    background-color: #e07e88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 5%;
+    font-size: 40px;
+    font-family: segoe UI;
+    font-weight: bold;
+}
+
+
+
+.products {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 50px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 50px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product{
+   padding-bottom: 10px;
+    width: 20%;
+    background-color: white;
+    
+}
+
+.product-img{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.pro-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.product-details{
+    padding: 10px;
+    font-family: segoe UI;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.btn-1{
+    padding: 12px 20px;
+    background-color: #98c6d2;
+    border: none;
+    color: green;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-2{
+    padding: 12px 20px;
+    background-color: #e07e88;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color:chocolate;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-container{
+    width: 80%;
+    height: 30px;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+}    
+
+.logo-footer{
+    width: 70%;
+    height: 30px;
+    /*background-color: yellow;*/
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.nav-footer{
+    width: 25%;
+    height: 30px;
+    /*background-color: blue;*/
+    display: flex;
+    align-items: center;
+    
+       
+    
+}
+.nav-links-footer{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    color: black;
+    justify-content: space-between;
+    font-family: Segoe UI;
+    
+}
+.nav-item-footer{
+    cursor: pointer;
+    
+}    
+
+
+
+
